@@ -1,7 +1,7 @@
-public class calculator extends ext_calculator{
+public class calc extends ext_calculator{
     public static void main(String[] args)
     {
-        calculator cal = new calculator();
+        calc cal = new calc();
         float n1=10,n2=20,result;
         String op="+";
         switch(op)
