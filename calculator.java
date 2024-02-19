@@ -19,9 +19,9 @@ public class calclator extends ext_calculator{
             System.out.println(n1+""+op+""+n2+" = "+result);
             break;
         }
-        float s = square(n1);
+        float s = cal.square(n1);
         System.out.println(s);
-        float c = cube(n1);
+        float c = cal.cube(n1);
         System.out.println(c);
     }
 }
