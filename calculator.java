@@ -1,4 +1,4 @@
-public class calclator extends ext_calculator{
+class calclator extends ext_calculator{
     public static void main(String[] args)
     {
         calculator cal = new calclator();
