@@ -1,7 +1,7 @@
-public class calc extends ext_calculator{
+public class calclator extends ext_calculator{
     public static void main(String[] args)
     {
-        calc cal = new calc();
+        calculator cal = new calclator();
         float n1=10,n2=20,result;
         String op="+";
         switch(op)
@@ -19,9 +19,9 @@ public class calc extends ext_calculator{
             System.out.println(n1+""+op+""+n2+" = "+result);
             break;
         }
-        float s = square(n1);
+        float s = cal.square(n1);
         System.out.println(s);
-        float c = cube(n1);
+        float c = cal.cube(n1);
         System.out.println(c);
     }
 }
